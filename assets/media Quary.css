@@ -1,0 +1,160 @@
+@media screen and (max-width:1400px) {
+    nav{
+        height: 7vh;
+    }
+    #home{
+        height: 120vh;
+    }
+    
+    .book{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1200px) {
+    .section-container{
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+    .video-container{
+        margin: 0.8rem 3rem;
+    }
+    iframe{
+        width: 500px;
+        height: 300px;
+    }
+    
+    .about_pic img{
+        width: 400px;
+        height: 400px;
+    }
+    .description{
+        width: 35rem;
+    }
+}
+@media screen and (max-width:900px) {
+    section{
+        margin: 1vh 1rem 0;
+    }
+    #desktop-nav {
+        display: none;
+    }
+
+    #hidden-nav {
+        display: flex;
+    }
+    
+
+    iframe{
+        width: 500px;
+        height: 300px;
+    }
+    .book-container{
+        border: 0.1px solid #037272;
+        border-radius: 15px;
+        transition: all 300ms ease;
+        margin-bottom: 2rem;
+    }
+    .book{
+        border: none;
+    }
+    .book-container img{
+        margin-top: 1rem;
+    }
+    .description{
+        width: 30rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .h1_main{
+        font-size: 2.8rem;
+    }
+    .h1_sub {
+        font-size: 2.0rem;
+    }
+    .p_main{
+        font-size: 1.3rem;
+    }
+    .p_sub{
+        font-size: 1.0rem;
+    }
+    #home{
+        height: vh;
+    }
+   
+    iframe{
+        width: 400px;
+        height: 220px;
+    }
+    .description{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:500px){
+    iframe{
+        width: 350px;
+        height: 190px;
+    }
+}
+@media screen and (max-width:400px){
+    section{
+        margin: 1vh 0.5rem 0;
+    }
+    .h1_main{
+        font-size: 2.3rem;
+    }
+    .h1_sub {
+        font-size: 1.8rem;
+    }
+    .p_main{
+        font-size: 1.0rem;
+    }
+    .p_sub{
+        font-size: 0.8rem;
+    }
+    #home{
+        height: 150vh;
+    }
+    #about{
+        height: 250vh;
+    }
+    .video-container{
+        margin: auto;
+    }
+    iframe{
+        width: 300px;
+        height: 190px;
+    }
+
+    .pic-container img{
+        width: 280px;
+        height: 280px;
+    }
+    .description{
+        width: 15rem;
+    }
+}
+@media screen and (max-width:350px){
+    iframe{
+        width: 280px;
+        height: 190px;
+    }
+}
+@media screen and (max-width:300px){
+    #home{
+        height: 170vh;
+    }
+    #about{
+        height: 280vh;
+    }
+    iframe{
+        width: 230px;
+        height: 160px;
+    }
+    .pic-container img{
+        width: 230px;
+        height: 230px;
+    }
+    .description{
+        width: 10rem;
+    }
+}
