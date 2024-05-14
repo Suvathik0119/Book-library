@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/media Quary.css">
+
+    <!-- font family -->
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- desktop nav bar -->
+    <nav id="desktop-nav">
+
+        <div class="nav-logo">BookShelf</div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#our-books">OUR BOOKS</a></li>
+                <li><a href="#contact">COTACT US</a></li>
+                <li><img src="./assets/account.png" alt="log in icon" class="nav-icon"></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- hidden nav bar -->
+    <nav id="hidden-nav">
+
+        <div class="nav-logo">BookShelf</div>
+
+        <div class="hidden-menu">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links p_main">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#our-books">BOOKS</a></li>
+                <li><a href="#contact">COTACT</a></li>
+                <li><img src="./assets/account.png" alt="log in icon" class="nav-icon"></li>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- home part -->
+    <section id="home">
+        
+        <div class="section-container">
+            <!-- pic-container -->
+            <div class="pic-container home_pic">
+                <img src="./assets/home.svg" alt="home image">
+            </div>
+            <!-- text-container -->
+            <div class="text-container">
+                <h1 class="h1_sub">Welcome</h1>
+                <p class="p_main home_text">
+                    Welcome to BookShelf, your ultimate destination for free book downloads! Whether you a bookworm, a literature enthusiast, or simply looking to expand your reading horizons, BookShelf is the perfect place for you. Explore our vast collection of books across various genres and get to dive into captivating stories, insightful knowledge, and endless entertainment.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- about part -->
+    <section id="about">
+
+        <div class="about-content">
+
+            <!-- tittle-container -->
+            <div class="tittle-container">
+                <h1 class="h1_main">About Us</h1>
+                <p class="p_sub description">
+                    A Journey Through the Pages of Knowledge.
+                </p>
+            </div>
+
+            <div class="section-container">
+                <!-- pic-container -->
+                <div class="pic-container about_pic">
+                    <img src="./assets/about.svg" alt="about pic" >
+                </div>
+
+                <!-- text-container -->
+                <div class="text-container">
+                    <p class="p_main home_text">
+                        Hey there! Welcome to our book library, your go-to place for awesome adventures and mind-bending ideas. We've got shelves stacked with all sorts of goodies, from classics that never get old to brand new tales that'll blow your mind. Once you step inside, get ready to be whisked away on all kinds of journeys. Picture yourself trotting through ancient kingdoms,solving thrilling mysteries or even exploring the stars—all from the comfort of your reading Book.
+                    </p>
+                </div>
+            </div>
+
+            <!-- video-container -->
+            <div class="video-container">
+
+                <!-- tittle-container -->
+                <div class="tittle-container">
+                    <h1 class="h1_sub">New Lonch Books</h1>
+                    <p class="p_sub description">
+                        this is our least released Book Cerimany
+                    </p>
+                </div>
+
+                <!-- add-container -->
+                <div class="add">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TuSKywP4Lfo?si=j1lFiH4cIvlCsXu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- book part -->
+    <section id="our-books">
+
+        <!-- tittle-container -->
+        <div class="tittle-container">
+            <h1 class="h1_main">Our <span>BOOK</span> Collections</h1>
+            <p class="p_sub description">we have many Collections of books</p>
+        </div>
+
+        <!-- section-container -->
+        <div class="section-container book">
+            <!-- book-container -->
+            <div class="book-container">
+                <img src="./assets/story.jfif" alt="story" class="book_pic">
+                <p class="p_main book_name"><a href="./assets/story.html">Story Book</a></p>
+            </div>
+
+            <div class="book-container">
+                <img src="./assets/horror.jfif" alt="horror" class="book_pic">
+                <p class="p_main book_name"><a href="./assets/horror.html">Horror Book</a></p>
+            </div>
+
+            <div class="book-container">
+                <img src="./assets/romance.jfif" alt="romance" class="book_pic">
+                <p class="p_main book_name"><a href="./assets/romance.html">Romance Book</a></p>
+            </div>
+
+            <div class="book-container">
+                <img src="./assets/programming.png" alt="programming" class="book_pic">
+                <p class="p_main book_name"><a href="./assets/programming.html">Programming Book</a></p>
+            </div>
+
+            <div class="book-container">
+                <img src="./assets/mystery.jfif" alt="mystery" class="book_pic">
+                <p class="p_main book_name"><a href="./assets/mystery.html">Mystery Book</a></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
